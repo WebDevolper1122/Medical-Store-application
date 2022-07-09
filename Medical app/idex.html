@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Store</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container c1" style="background-color: white;">
+        <div class="row nav1">
+            <div class="col-md-6">
+                <h1 class="text-white">OnLine Medical Store </h1>
+                <span class="text-white">& Complete soluion for shipping and online payments</span>
+            </div>
+            <div class="col-md-6">
+                <ul class="topbar">
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Sign up</a></li>
+                    <li><a href="" style="border-right: none;">All Medicines</a></li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control frm" type="search" placeholder="Search" aria-label="Search">
+                </form>
+            </div>
+        </div>
+        <!-------------------------- Nav Bar 2 ------------------------------------>
+        <div class="row nbar2">
+            <col-md-12>
+                <ul class="nav2">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">All Medicines</a></li>
+                    <li><a href="">Syrup</a></li>
+                    <li><a href="">Tablets</a></li>
+                    <li><a href="">Vitamin Capsule</a></li>
+                    <button class="btn btn-primary me-2"><a href="../Signup/sign.html">Sign-up</a></button>
+                    <button class="btn btn-primary"><a href="../Login/login.html">log-in</a></button>
+                </ul>
+            </col-md-12>
+        </div>
+        <!-------------------------- Hero-Section ------------------------------------>
+        <div class="row hero" style="background-color: blue;">
+            <div class="col-md-8">
+                <div class="img" style="height: 50vh;"></div>
+            </div>
+            <div class="col-md-4" style="margin-top: 50px;">
+                <h1 class="text-white">We Ensure the <span style="color: red;">Lowest</span> sand <span style="color: red;">Best Price</span> for <span style="color: red;">each medicines</span></h1>
+            </div>
+        </div>
+        <!-------------------------- Section-2 ------------------------------------>
+
+        <div class="box">
+            <form onsubmit="calculateValue(); return false ">
+                <div class="row">
+                    <div class="col">
+                        <span class="line"> <strong> Online Medicine Store</strong></span>
+                        <div></div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-2 img1">
+
+                    </div>
+                    <div class="col-md-2 content1">
+                        <h5 style="color: blue;">Vitamin-E</h5>
+                        <button type="button" class="btn btn-outline-primary" onclick="getval1()">RS
+                        <span class="val1" data-value="100">100</span>
+                    </button>
+                        <div class="mt-2">
+                            <input type="text" class="form-control one" id="input1" aria-describedby="emailHelp" placeholder="" readonly>
+                        </div>
+                    </div>
+                    <div class="col-md-2 img2"></div>
+                    <div class="col-md-2">
+                        <h5 style="color: blue;">v8</h5>
+                        <button type="button" class="btn btn-outline-primary" onclick="getval2()">RS
+                        <span class="val2" data-value="200">200</span>
+                    </button>
+                        <div class="mt-2">
+                            <input type="text" class="form-control two" id="input1" aria-describedby="emailHelp" placeholder="" readonly>
+                        </div>
+                    </div>
+                    <div class="col-md-2 img3"></div>
+                    <div class="col-md-2">
+                        <h5 style="color: blue;">Skin-Care</h5>
+                        <button type="button" class="btn btn-outline-primary" onclick="getval3()">RS
+                        <span class="val3" data-value="300">300</span>
+                    </button>
+                        <div class="mt-2">
+                            <input type="text" class="form-control three" id="input1" aria-describedby="emailHelp" placeholder="" readonly>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row mt-3">
+                    <div class="col-md-2 img4">
+
+                    </div>
+                    <div class="col-md-2 content1">
+                        <h5 style="color: blue;">Angela</h5>
+                        <button type="button" class="btn btn-outline-primary" onclick="getval4()">RS
+                        <span class="val4" data-value="400">400</span>
+                    </button>
+                        <div class="mt-2">
+                            <input type="text" class="form-control four" id="input1" aria-describedby="emailHelp" placeholder="" readonly>
+                        </div>
+                    </div>
+                    <div class="col-md-2 img5"></div>
+                    <div class="col-md-2">
+                        <h5 style="color: blue;">Health-Care</h5>
+                        <button type="button" class="btn btn-outline-primary" onclick="getval5()">RS
+                        <span class="val5" data-value="250">250</span>
+                    </button>
+                        <div class="mt-2">
+                            <input type="text" class="form-control five" id="input1" aria-describedby="emailHelp" placeholder="" readonly>
+                        </div>
+                    </div>
+                    <div class="col-md-2 img6"></div>
+                    <div class="col-md-2">
+                        <h5 style="color: blue;">Pain-killer</h5>
+                        <button type="button" class="btn btn-outline-primary" onclick="getval6()">RS
+                        <span class="val6" data-value="350">350</span>
+                    </button>
+                        <div class="mt-2">
+                            <input type="text" class="form-control six" id="input1" aria-describedby="emailHelp" placeholder="" readonly>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-outline-primary w-100 mt-2">calculate</button>
+            </form>
+        </div>
+
+    </div>
+
+    <div class="Result"></div>
+
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+
+</html>

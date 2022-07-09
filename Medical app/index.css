@@ -1,0 +1,182 @@
+body {
+    background: rgb(0, 174, 255);
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.c1 {
+    border: 1px solid white;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.nav1 {
+    background: blue;
+}
+
+.topbar {
+    display: flex;
+    justify-content: end;
+    margin-right: -25px;
+}
+
+.topbar li {
+    list-style-type: none;
+}
+
+.topbar li a {
+    flex-direction: column;
+    text-decoration: none;
+    margin-right: 7px;
+    border-right: 1px solid white;
+    color: white;
+    padding-right: 11px;
+}
+
+.topbar li a:hover {
+    color: rgb(197, 197, 197);
+}
+
+.frm {
+    margin-right: -8px;
+    margin-left: 205px;
+    margin-bottom: 3px;
+}
+
+
+/*********************** Navbar 2 *********************************/
+
+.nbar2 {
+    background: white;
+}
+
+.nav2 {
+    display: flex;
+    margin-top: 5px;
+}
+
+.nav2 li {
+    list-style-type: none;
+}
+
+.nav2 li a {
+    flex-direction: column;
+    text-decoration: none;
+    color: blue;
+    font-weight: 500;
+    margin-right: 84px;
+    align-items: center;
+}
+
+.nav2 li a:hover {
+    color: rgb(197, 197, 197);
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/*********************** Hero section *********************************/
+
+.img {
+    background-image: url("/Acessets/pain killer/bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    margin-left: -11px;
+}
+
+.hero {
+    margin-top: 5px;
+}
+
+
+/*********************** section-2 *********************************/
+
+.box {
+    margin-left: 67px;
+    margin-right: 45px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.line {
+    font-size: larger;
+}
+
+.line::after {
+    content: "";
+    height: 3px;
+    margin-top: 2px;
+    width: 100%;
+    background: rgb(173, 173, 173);
+    display: block;
+    margin-bottom: 5px;
+}
+
+.img1 {
+    background-image: url("/Acessets/Vitamin-E-Capsule/Vitamin-E-Oil.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130px;
+    width: 15%;
+    border: 1px solid grey;
+}
+
+.img2 {
+    background-image: url("/Acessets/Vitamin-E-Capsule/vitamin\ e\ cap\ 1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130px;
+    width: 15%;
+    border: 1px solid grey;
+}
+
+.img3 {
+    background-image: url("/Acessets/Vitamin-E-Capsule/vitamin\ e\ cap\ 2.jfif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130px;
+    width: 15%;
+    border: 1px solid grey;
+}
+
+.img4 {
+    background-image: url("/Acessets/Vitamin-E-Capsule/vitamin\ e\ cap\ 3.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130px;
+    width: 15%;
+    border: 1px solid grey;
+}
+
+.img5 {
+    background-image: url("/Acessets/Vitamin-E-Capsule/vitamin\ e\ cap\ 4.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130px;
+    width: 15%;
+    border: 1px solid grey;
+}
+
+.img6 {
+    background-image: url("/Acessets/Vitamin-E-Capsule/vitamin\ e\ cap\ 5.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130px;
+    width: 15%;
+    border: 1px solid grey;
+}
